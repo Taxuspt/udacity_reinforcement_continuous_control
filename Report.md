@@ -24,19 +24,17 @@ WEIGHT_DECAY = 0.00001  # L2 weight decay
 The parameters were either kept constant (taken from the example project [DDPG Bipedal](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal)) or fine tuned via trial and error.
 
 ## Results
-The agent is capable to achieve an average score of >30 after approximatly 500 episodes.
+The agent is capable to achieve an average score of >30 after approximatly 200 episodes.
 
 ```
-Episode 100	Average Score: 0.58
-Episode 200	Average Score: 3.13
-Episode 300	Average Score: 6.87
-Episode 400	Average Score: 10.39
-Episode 500	Average Score: 14.01
-Episode 600	Average Score: 13.79
-Episode 700	Average Score: 14.80
-Episode 800	Average Score: 14.90
-Episode 900	Average Score: 15.55
-Episode 1000 Average Score: 15.76
+# Run the training loop (this will take a while)
+scores = ddpg(n_episodes=500, print_every=100, stop_score=30)
+
+Episode 100	Average Score: 5.50
+Episode 200	Average Score: 29.34
+Episode 204	Average Score: 30.24
+Environment solved in 204 episodes!	Average Score: 30.24
+
 ```
 
 ![robot](images/learning_rate.png)

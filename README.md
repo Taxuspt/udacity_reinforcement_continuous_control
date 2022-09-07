@@ -1,4 +1,4 @@
-# Udacity RL course: Project 1 - Navigation
+# Udacity RL course: Project 2 : Continuous control
 ![robot](images/robot_agent.gif)
 
 ## Project details
@@ -41,5 +41,5 @@ You should be able to run the imports on [Continuous_Control](Continuous_Control
 ## Training and running the agent
 Run [Continuous_Control.ipynb](Continuous_Control.ipynb) to train and test an agent.
 
-You should be able to get an average score > 30 after <500 episodes.
+You should be able to get an average score >30 after ~200 episodes.
 You can also load a previously trained agent directly, without having to run the training job.
